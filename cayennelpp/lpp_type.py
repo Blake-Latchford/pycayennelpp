@@ -45,7 +45,10 @@ class LppType(object):
                  [False, False, False]),
         136:    ('Location', [3, 3, 3], [10000, 10000, 100],
                  [True, True, True]),
-        142:    ('Switch', [1], [1], [False])
+        142:    ('Switch', [1], [1], [False]),
+        250:    ('Wind Speed', [2], [1], [False]),
+        251:    ('Wind Gust', [2], [1], [False]),
+        252:    ('Rain Tip Count', [2], [1], [False])
     }
 
     def __init__(self, type_, name, sizes, scales, signs):
