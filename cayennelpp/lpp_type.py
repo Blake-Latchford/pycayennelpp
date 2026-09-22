@@ -35,6 +35,7 @@ class LppType(object):
         122:    ('Load', [3], [1000], [True]),
         125:    ('Concentration', [2], [1], [False]),
         128:    ('Power', [2], [1], [False]),
+        129:    ('Wind Speed', [2], [100], [False]),
         130:    ('Distance', [4], [1000], [False]),
         131:    ('Energy', [4], [1000], [False]),
         132:    ('Direction', [2], [1], [False]),
@@ -45,10 +46,9 @@ class LppType(object):
                  [False, False, False]),
         136:    ('Location', [3, 3, 3], [10000, 10000, 100],
                  [True, True, True]),
-        142:    ('Switch', [1], [1], [False]),
-        250:    ('Wind Speed', [2], [1], [False]),
-        251:    ('Wind Gust', [2], [1], [False]),
-        252:    ('Rain Tip Count', [2], [1], [False])
+        137:    ('Wind Gust', [2], [100], [False]),
+        139:    ('Rain', [2], [10], [False]),
+        142:    ('Switch', [1], [1], [False])
     }
 
     def __init__(self, type_, name, sizes, scales, signs):
