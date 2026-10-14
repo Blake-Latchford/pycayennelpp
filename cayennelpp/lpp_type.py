@@ -48,6 +48,7 @@ class LppType(object):
                  [True, True, True]),
         137:    ('Wind Gust', [2], [100], [False]),
         139:    ('Rain', [2], [10], [False]),
+        140:    ('Wind Direction Stddev', [2], [10], [False]),
         142:    ('Switch', [1], [1], [False])
     }
 
